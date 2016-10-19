@@ -14,6 +14,8 @@
 		BD9C43ED1DB7D420004E5EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9C43EB1DB7D420004E5EA0 /* LaunchScreen.storyboard */; };
 		BD9C43F51DB7D8B9004E5EA0 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C43F41DB7D8B9004E5EA0 /* Student.swift */; };
 		BD9C43F71DB7DC73004E5EA0 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C43F61DB7DC73004E5EA0 /* NetworkController.swift */; };
+		BD9C43F91DB7DCD3004E5EA0 /* StudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C43F81DB7DCD3004E5EA0 /* StudentController.swift */; };
+		BD9C43FB1DB7F16E004E5EA0 /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C43FA1DB7F16E004E5EA0 /* StudentTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +26,10 @@
 		BD9C43E91DB7D420004E5EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD9C43EC1DB7D420004E5EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD9C43EE1DB7D420004E5EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD9C43F41DB7D8B9004E5EA0 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
-		BD9C43F61DB7DC73004E5EA0 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		BD9C43F41DB7D8B9004E5EA0 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Student.swift; path = ../Student.swift; sourceTree = "<group>"; };
+		BD9C43F61DB7DC73004E5EA0 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkController.swift; path = ../NetworkController.swift; sourceTree = "<group>"; };
+		BD9C43F81DB7DCD3004E5EA0 /* StudentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentController.swift; path = ../StudentController.swift; sourceTree = "<group>"; };
+		BD9C43FA1DB7F16E004E5EA0 /* StudentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +46,6 @@
 		BD9C43D31DB7D420004E5EA0 = {
 			isa = PBXGroup;
 			children = (
-				BD9C43F41DB7D8B9004E5EA0 /* Student.swift */,
-				BD9C43F61DB7DC73004E5EA0 /* NetworkController.swift */,
 				BD9C43DE1DB7D420004E5EA0 /* StudentAPI */,
 				BD9C43DD1DB7D420004E5EA0 /* Products */,
 			);
@@ -60,9 +62,13 @@
 		BD9C43DE1DB7D420004E5EA0 /* StudentAPI */ = {
 			isa = PBXGroup;
 			children = (
+				BD9C43F41DB7D8B9004E5EA0 /* Student.swift */,
 				BD9C43DF1DB7D420004E5EA0 /* AppDelegate.swift */,
 				BD9C43E31DB7D420004E5EA0 /* Main.storyboard */,
+				BD9C43FA1DB7F16E004E5EA0 /* StudentTableViewController.swift */,
 				BD9C43E91DB7D420004E5EA0 /* Assets.xcassets */,
+				BD9C43F61DB7DC73004E5EA0 /* NetworkController.swift */,
+				BD9C43F81DB7DCD3004E5EA0 /* StudentController.swift */,
 				BD9C43EB1DB7D420004E5EA0 /* LaunchScreen.storyboard */,
 				BD9C43EE1DB7D420004E5EA0 /* Info.plist */,
 				BD9C43E61DB7D420004E5EA0 /* StudentAPI.xcdatamodeld */,
@@ -143,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9C43F91DB7DCD3004E5EA0 /* StudentController.swift in Sources */,
 				BD9C43F71DB7DC73004E5EA0 /* NetworkController.swift in Sources */,
+				BD9C43FB1DB7F16E004E5EA0 /* StudentTableViewController.swift in Sources */,
 				BD9C43E81DB7D420004E5EA0 /* StudentAPI.xcdatamodeld in Sources */,
 				BD9C43F51DB7D8B9004E5EA0 /* Student.swift in Sources */,
 				BD9C43E01DB7D420004E5EA0 /* AppDelegate.swift in Sources */,
