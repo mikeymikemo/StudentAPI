@@ -13,6 +13,7 @@
 		BD9C43EA1DB7D420004E5EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9C43E91DB7D420004E5EA0 /* Assets.xcassets */; };
 		BD9C43ED1DB7D420004E5EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9C43EB1DB7D420004E5EA0 /* LaunchScreen.storyboard */; };
 		BD9C43F51DB7D8B9004E5EA0 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C43F41DB7D8B9004E5EA0 /* Student.swift */; };
+		BD9C43F71DB7DC73004E5EA0 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C43F61DB7DC73004E5EA0 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BD9C43EC1DB7D420004E5EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD9C43EE1DB7D420004E5EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD9C43F41DB7D8B9004E5EA0 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		BD9C43F61DB7DC73004E5EA0 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				BD9C43F41DB7D8B9004E5EA0 /* Student.swift */,
+				BD9C43F61DB7DC73004E5EA0 /* NetworkController.swift */,
 				BD9C43DE1DB7D420004E5EA0 /* StudentAPI */,
 				BD9C43DD1DB7D420004E5EA0 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9C43F71DB7DC73004E5EA0 /* NetworkController.swift in Sources */,
 				BD9C43E81DB7D420004E5EA0 /* StudentAPI.xcdatamodeld in Sources */,
 				BD9C43F51DB7D8B9004E5EA0 /* Student.swift in Sources */,
 				BD9C43E01DB7D420004E5EA0 /* AppDelegate.swift in Sources */,
